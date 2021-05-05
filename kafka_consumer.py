@@ -3,7 +3,7 @@ from kafka.consumer import KafkaConsumer
 import json
 
 # Add kafka-server host and port (docker hostname)
-server = "kubernetes.docker.internal:9092"
+server = "shubham-mac:9092"
 
 # Kafka Topic that our Kafka Consumer is subscribing.
 topic = "Users"

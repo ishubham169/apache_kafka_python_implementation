@@ -2,7 +2,7 @@
 from kafka.admin import KafkaAdminClient, NewTopic
 
 # Add kafka-server host and port (docker hostname)
-server = "kubernetes.docker.internal:9092"
+server = "shubham-mac:9092"
 kafka_admin = KafkaAdminClient(bootstrap_servers=server)
 
 # Creating a new Kafka-topic = Users

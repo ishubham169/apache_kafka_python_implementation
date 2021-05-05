@@ -3,7 +3,7 @@ from kafka.producer import KafkaProducer
 import json
 
 # Add kafka-server host and port (docker hostname)
-server = "kubernetes.docker.internal:9092"
+server = "shubham-mac:9092"
 
 
 kafka_producer = KafkaProducer(bootstrap_servers=server)
